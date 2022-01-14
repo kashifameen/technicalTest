@@ -2,3 +2,57 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
+@font-face {
+    src: url(../fonts/ProximaNovaRegular.ttf);
+    font-family: "Proxima Nova", serif;
+}
+.homePage{
+    background-image: url(../assets/Header_Home_Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    height: 100vh;
+}
+.nav-link {
+    color: yellow;
+}
+li a{
+    color: purple;
+}
+.headerBtn{
+    text-decoration: none;
+    background-color: #FF6200;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.headerBtn a{
+    text-decoration: none;
+    color: #F7F7F7;
+}
+#homePageContent{
+    position: relative;
+}
+.contentContainer {
+    position: absolute;
+    max-width: 31%;
+    max-height: 30%;
+    padding-top: 10%;
+}
+
+.earnNowBtn {
+    background-color: #FF6200;
+    border-radius: 12px;
+    border:none;
+    padding: 10px 30px 10px 30px;
+    color: #F7F7F7;
+    margin: 10px 10px 10px 0px;
+    box-shadow: 5px 10px #FF6200;
+}
+.moreInfoBtn{
+    background-color: #F7F7F7;
+    border: #FF6200 solid 1px;
+    border-radius: 12px;
+    padding:10px 65px 10px 65px;
+
+}
