@@ -13,7 +13,8 @@
     <div class="homePage">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="assets/Logo-svg2.png"/></a>
+                <a class="navbar-brand" href="#"><img class="d-none d-lg-block" src="assets/Logo-svg2.png"/>
+                <img class="d-lg-none" src="assets/Logo.svg"/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -55,18 +56,21 @@
             <br/>
             <h1 class="darkHeader">GET</h1>
             <h1 class="orangeHeaderText">Paid</h1>
+            <img class="msgUsBtn d-lg-none" src="assets/message_us.png"/>
 
-            <p>Want to earn money for creating killer vape social content? <br/>Vape Influencer is for you!</p>
-            <p>Start earning by showcasing your creativity. Sign up today <br/>to get access to fast and simple tasks today!</p>
-            <button class="earnNowBtn">Start Earning Now!</button>
-            <button class="moreInfoBtn">More Info</button>
+            <p>Want to earn money for creating killer vape social content? <br class="hidden-xs hidden-sm"/>Vape Influencer is for you!</p>
+            <p>Start earning by showcasing your creativity. Sign up today <br class="hidden-xs hidden-sm"/>to get access to fast and simple tasks today!</p>
+            <button class="earnNowBtn d-none d-lg-inline">Start Earning Now!</button>
+            <button class="earnNowBtn d-lg-none">Start Earning!</button>
+            <button class="moreInfoBtn d-none d-lg-inline">More Info</button>
+            <button class="moreInfoBtn d-lg-none">More Info</button>
         </div>
     </div>
 </header>
 <section id="makeMoney">
     <div class="moneyHeader">
         <h1>Do you Vape?</h1>
-        <h2>MAKE MONEY BY COMPLETING TASKS <img src="assets/message_us.png"/> </h2>
+        <h2>MAKE MONEY BY COMPLETING TASKS <img class="d-none d-lg-inline" src="assets/message_us.png"/> </h2>
     </div>
 </section>
 <section id="makeMoneyCarousel">

@@ -127,7 +127,7 @@ a.nav-link{
     max-width: 90vw;
 }
 .carousel{
-    padding: 15% 10% 5% 0%;
+    padding: 15% 10% 5%;
 }
 .topbrandsHeader{
     position: relative;
@@ -156,3 +156,99 @@ a.nav-link{
 .navbar-dark .navbar-nav .nav-link {
     color: #F7F7F7;
 }
+@media screen and (max-width: 450px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .navbar {
+        margin: 0 1.25rem 0 1.25rem;
+        padding: 0.625rem;
+    }
+    .homePage {
+        background-image: url(../assets/Header_Home_Mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contentContainer {
+        position: absolute;
+        max-height: 30%;
+        max-width: 100%;
+        padding-top: 100%;
+        display: inline;
+        padding-left: 5.5%;
+
+    }
+
+    .moneyHeader {
+        padding-top: 35%;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .moreInfoBtn {
+        background-color: #F7F7F7;
+        border: #FF6200 solid 0.063rem;
+        border-radius: 0.75rem;
+        padding: 0.625rem 2.063rem 0.625rem 2.063rem;
+    }
+
+    .moneyHeader h1 {
+        font-size: 5rem;
+        font-weight: 100;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        color: #D8D8D8;
+        opacity: 0.5;
+    }
+
+    .moneyHeader h2 {
+        position: absolute;
+        font-size: 2rem;
+        font-weight: 400;
+        z-index: 3;
+        width: 105%;
+        margin-top: 1.625rem;
+        margin-right: 0.625rem;
+    }
+
+    #makeMoneyCarousel {
+        max-width: 100vw;
+        padding-top: 10%;
+        margin: 10px 0px 10px 30px;
+    }
+    .topbrandsHeader{
+        width: 100vw;
+    }
+
+    .topbrandsHeader h1 {
+        font-size: 5rem;
+        font-weight: 100;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        color: #D8D8D8;
+        opacity: 0.5;
+    }
+
+    .topbrandsHeader h2 {
+        position: absolute;
+        font-size: 2rem;
+        font-weight: 400;
+        z-index: 3;
+        width: 100%;
+        margin: 1.813rem 0.625rem 0 0;
+    }
+    .msgUsBtn {
+        position: absolute;
+        padding-left: 15%;
+    }
+}
+
